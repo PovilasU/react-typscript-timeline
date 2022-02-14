@@ -6,7 +6,7 @@ interface IProps{
     description?: string;
 }
 
-const TimelineItem = (data:IProps) => {
+const TimelineItem : React.FC<IProps>=(data) => {
     const { time, title, description } = data;
     return (
         <div>

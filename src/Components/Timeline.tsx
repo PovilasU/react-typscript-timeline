@@ -1,11 +1,15 @@
 import * as React from 'react'
+import TimelineItem from './TimelineItem';
 
 
-const Timeline = () => {
+
+const Timeline:React.FC = () => {
+
     
     return (
         <div>
             <p>Timeline</p>
+            <TimelineItem> </TimelineItem>
         </div>
     )
 }
