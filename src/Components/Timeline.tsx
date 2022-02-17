@@ -3,7 +3,6 @@ import TimelineItem from './TimelineItem';
 import { newEv, EventInterface } from './utils';
 
 const Timeline: React.FC = () => {
-  const [count, setCount] = useState(0);
   const [events, setEvents] = useState<EventInterface[]>([]);
   const [isOpen, setIsOpen] = useState<boolean>(false);
   const [event, setEvent] = useState<EventInterface>();
@@ -46,13 +45,6 @@ const Timeline: React.FC = () => {
 
   return (
     <div>
-      <button
-        onClick={() => {
-          setCount(count + 1);
-        }}
-      >
-        count{count}
-      </button>
       {isOpen && event && (
         <div className="modal-container">
           <div className="modal">
