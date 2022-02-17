@@ -16,7 +16,7 @@ function App() {
       <footer>
         <h4>Povilas Urbonas (2022)</h4>
         <div className="link-container">
-          <a href="https://github.com/PovilasU/React-Timeline">
+          <a href="https://github.com/PovilasU/react-typscript-timeline">
             Link to git repository
           </a>
         </div>
